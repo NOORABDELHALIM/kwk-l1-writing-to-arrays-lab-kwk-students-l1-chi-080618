@@ -14,8 +14,8 @@ end
 
 
 def add_colors
-  change_rainbow_colors.push("green")
-  change_rainbow_colors.push("blue")
+  RAINBOW_COLORS.push("green")
+  RAINBOW_COLORS.push("blue")
   return RAINBOW_COLORS
 end
 puts add_colors
